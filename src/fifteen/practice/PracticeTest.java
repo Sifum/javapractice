@@ -1,4 +1,4 @@
-package fifteen.practice20;
+package fifteen.practice;
 
 /*
  * 创建一个具有两个方法的接口，以及一个实现了这个接口并添加了另一个方法的类。

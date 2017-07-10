@@ -1,4 +1,4 @@
-package fifteen.practice4;
+package fifteen.practice;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,7 +11,6 @@ interface Selector {
 }
 public class Sequence<E> {
 	private List<E> list = new ArrayList<>();
-	private int next = 0;
 	public Sequence(List<E> list) {
 		// TODO Auto-generated constructor stub
 		this.list = list;

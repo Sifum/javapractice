@@ -14,9 +14,9 @@ public class Collection12 {
 			listsTwo.add(i);
 		}
 		ListIterator<Integer> lit = listsOne.listIterator();
-//		while(lit.hasPrevious()) {
-//			listsTwo.add(lit.previous());
-//		}
+		while(lit.hasPrevious()) {
+			listsTwo.add(lit.previous());
+		}
 		
 		System.out.println(listsTwo);
 	}

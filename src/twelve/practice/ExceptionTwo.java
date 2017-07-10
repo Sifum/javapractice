@@ -8,7 +8,7 @@ package twelve.practice;
 public class ExceptionTwo {
 	public static void main(String args[]) {
 		try {
-			Integer i = null;
+			Integer i = 0;
 			Integer.bitCount(i);
 		} catch (Exception e) {
 			e.printStackTrace();

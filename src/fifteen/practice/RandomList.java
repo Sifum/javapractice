@@ -1,4 +1,4 @@
-package fifteen.practice6;
+package fifteen.practice;
 
 import java.util.ArrayList;
 import java.util.Arrays;

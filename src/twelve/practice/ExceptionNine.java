@@ -25,6 +25,21 @@ public class ExceptionNine {
 		}
 	}
 }
-class Exception1 extends Exception {}
-class Exception2 extends Exception {}
-class Exception3 extends Exception {}
+class Exception1 extends Exception {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;}
+class Exception2 extends Exception {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;}
+class Exception3 extends Exception {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;}

@@ -2,12 +2,11 @@ package eleven.practice;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Random;
 
 
 public class ListFeatures {
 	public static void main(String args[]) {
-		Random rand = new Random(47);
+//		Random rand = new Random(47);
 		List<Integer> integers = new ArrayList<>();
 		for(int i = 0; i < 10; i++) {
 			integers.add(i);

@@ -1,4 +1,4 @@
-package fifteen.practice5;
+package fifteen.practice;
 
 public class LinkedStack<T> {
 	private class Node {

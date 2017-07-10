@@ -1,4 +1,4 @@
-package fifteen.practice2;
+package fifteen.practice;
 
 /*
  * 创建一个Holder类，使其能够持有具有相同类型的3个对象，并提供相应的读写方法
