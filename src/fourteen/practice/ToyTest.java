@@ -5,8 +5,8 @@ interface Waterproof{}
 interface Shoots{}
 
 class Toy implements HasBatteries, Waterproof,Shoots {
-	public Toy() {
-	}
+//	public Toy() {
+//	}
 	public Toy(int i) {
 	}
 }
@@ -19,19 +19,19 @@ class FancyToy extends Toy implements HasBatteries,Waterproof,Shoots {
 
 public class ToyTest {
 	static void printInfo(Class<?> cc) {
-		//îÈ«ÃûºÍÊÇ·ñÊÇ½Ó¿Ú
+		//æ‰“å°ç±»å¯¹è±¡çš„åç§°å’Œæ˜¯å¦æ¥å£
 		System.out.println("Class name: " + cc.getName() +
 				" is interface? [" + cc.isInterface() + "]");
-		//Ö±½ÓîÃû·Q
+		//å¾—åˆ°ç±»å¯¹è±¡çš„ä¸åŒ…æ‹¬åŒ…åçš„ç±»å
 		System.out.println("Simple name: " + cc.getSimpleName());
-		//°ü¼ÓîÃû·Q
+		//å¾—åˆ°å…¨é™å®šçš„ç±»å
 		System.out.println("Canonical name:" + cc.getCanonicalName());
 	}
 	
 	public static void main(String[] args) {
 		Class<?> c = null;
 		try {
-			//±ØíšÊ¹ÓÃÈ«ÏŞ¶¨Ãû
+			//å‚æ•°å¿…é¡»ä¸ºåŒ…+ç±»å…¨ç§°
 			c = Class.forName("fourteen.practice.FancyToy");
 		} catch (ClassNotFoundException e) {
 			// TODO: handle exception
@@ -44,11 +44,11 @@ public class ToyTest {
 		for(Class<?> face : c.getInterfaces()) {
 			printInfo(face);
 		}
-		//•şµÃµ½Ö±½Ó»ùî
+		//å¾—åˆ°ç›´æ¥åŸºç±»
 		Class<?> up = c.getSuperclass();
 		Object obj = null;
 		try {
-			//Ê¹ÓÃ´ËŒÀı»¯£¬±Øíš§ÓĞÄ¬ÕJµÄ˜‹ÔìÆ÷
+			//å®ä¾‹åŒ–çš„ç±»å¿…é¡»å…·æœ‰é»˜è®¤æ„é€ å™¨
 			obj = up.newInstance();
 		} catch (InstantiationException e) {
 			// TODO: handle exception
