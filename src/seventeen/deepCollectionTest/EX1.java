@@ -1,4 +1,4 @@
-package seventeen.practice;
+package seventeen.deepCollectionTest;
 
 import java.util.ArrayList;
 import java.util.Collections;

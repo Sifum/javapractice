@@ -1,4 +1,4 @@
-package fourteen.practice;
+package fourteen.typeInfoTest;
 
 //写一个方法，令它接收任意对象作为参数，并能够递归打印出该对象所在的继承体系中的所有类
 public class PrintAllClass {

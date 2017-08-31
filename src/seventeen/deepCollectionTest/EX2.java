@@ -1,4 +1,4 @@
-package seventeen.practice;
+package seventeen.deepCollectionTest;
 
 import java.util.HashMap;
 import java.util.HashSet;
