@@ -2,8 +2,14 @@ package twenty.annotationTest;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Field;
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
+
+import com.mysql.jdbc.Connection;
+import com.mysql.jdbc.Statement;
+
+import common.JDBCConnection;
 
 /**
  * 1.实现更多的类型
@@ -72,7 +78,13 @@ public class Ex1 {
 			System.out.println("Table Creation SQL is for:" + className + " is: " + tableCreate);
 			
 			
-		} catch (ClassNotFoundException e) {
+			/******连接数据库，执行语句************/
+			Connection conn = JDBCConnection.getConnection();
+			java.sql.Statement st = conn.createStatement();
+			st.execute(tableCreate);
+			conn.close();
+			
+		} catch (ClassNotFoundException | SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
