@@ -1,7 +1,7 @@
 package thirteen.stringTest;
 
 /**
- * ��дһ�����򣬼��һ�������Ƿ��Դ�д��ĸ��ͷ���Ծ�Ž�β��
+ * 
  * @author Administrator
  *
  */

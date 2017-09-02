@@ -1,4 +1,4 @@
-package common;
+package all;
 
 public class Countries {
 	public static final String[][] Data = {

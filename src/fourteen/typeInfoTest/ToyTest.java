@@ -1,5 +1,14 @@
 package fourteen.typeInfoTest;
 
+/**
+ * Ex1
+ * 将Toy的默认构造器注释，并解释发生的现象
+ * 使用newInstance()创建的类，必须带有默认的构造器
+ * Ex2
+ * 将新的interface加到ToyTest.java中，看看这个程序是否能干正确检测出来并加以显示
+ * @author pocan
+ *
+ */
 interface HasBatteries{}
 interface Waterproof{}
 interface Shoots{}
@@ -31,8 +40,9 @@ public class ToyTest {
 	public static void main(String[] args) {
 		Class<?> c = null;
 		try {
-			c = Class.forName("fourteen.practice.FancyToy");
-		} catch (ClassNotFoundException e) {
+			FancyToy fancyToy = new FancyToy();
+			c = fancyToy.getClass();
+		} catch (Exception e) {
 			// TODO: handle exception
 			System.out.println("cant't find FancyToy");
 			System.exit(1);

@@ -3,7 +3,7 @@ package thirteen.stringTest;
 import java.util.Formatter;
 
 /**
- * �޸�Receipt.java�������еĿ�ȶ���һ�����������ơ�
+ * 
  * @author Administrator
  *
  */

@@ -4,7 +4,8 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import common.Countries;
+import all.Countries;
+
 
 /**
  * 创建一个List，然后用Countries来填充，对该列表排序并打印，然后将Collection.shuffle()

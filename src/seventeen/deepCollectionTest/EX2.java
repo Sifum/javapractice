@@ -5,10 +5,11 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-import common.Countries;
+import all.Countries;
+
 
 /**
- * 生成要给Map和set,使其包含所有以A开头地国家
+ * 生成要给Map和set,使其包含所有以A开头的国家
  * @author Administrator
  *
  */

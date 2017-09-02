@@ -3,7 +3,7 @@ package eleven.collectionTest;
 import java.util.ArrayList;
 
 /*
- * �޸�innerclasses/Sequence.java��ʹ������������������������Ԫ��
+ * 
  */
 interface Selector {
 	boolean end();

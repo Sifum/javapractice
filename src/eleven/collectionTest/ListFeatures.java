@@ -22,7 +22,7 @@ public class ListFeatures {
 		Integer b = integers.get(2);
 		System.out.println("4: " + b + " " + integers.indexOf(b));
 		
-		//ʡ��
+		//
 		
 	}
 }

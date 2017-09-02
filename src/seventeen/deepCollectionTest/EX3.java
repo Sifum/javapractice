@@ -5,7 +5,8 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-import common.Countries;
+import all.Countries;
+
 
 /**
  * 使用countries，用同样地数据多次填充Set，然后验证此Set中没有重复地元素
